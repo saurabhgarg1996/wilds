@@ -182,7 +182,7 @@ class FMoWDataset(WILDSDataset):
         Returns x for a given idx.
         """
         idx = self.full_idxs[idx]
-        img = Image.open(self.root / 'images' / f'rgb_img_{idx}.png').convert('RGB')
+        img = Image.open(self.root / 'images' / f'rgb_img_{idx}.jpg').convert('RGB')
         return img
 
     def eval(self, y_pred, y_true, metadata, prediction_fn=None):
