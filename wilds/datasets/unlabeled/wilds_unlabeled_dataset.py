@@ -238,6 +238,10 @@ class WILDSPseudolabeledSubset(WILDSUnlabeledDataset):
     @property
     def split_array(self):
         return self.dataset._split_array[self.indices]
+    
+    @property
+    def y_array(self):
+        return self.dataset._y_array[self.indices]
 
     @property
     def metadata_array(self):
