@@ -157,5 +157,5 @@ class FMoWUnlabeledDataset(WILDSUnlabeledDataset):
         Returns x for a given idx.
         """
         idx = self.full_idxs[idx]
-        img = Image.open(self.root / 'images' / f'rgb_img_{idx}.png').convert('RGB')
+        img = Image.open(self.root / 'images' / f'rgb_img_{idx}.jpg').convert('RGB')
         return img
