@@ -24,13 +24,10 @@ setuptools.setup(
         'numpy>=1.19.1',
         'ogb>=1.2.6',
         'outdated>=0.2.0',
-        'pandas>=1.1.0',
         'pillow>=7.2.0',
         'ogb>=1.2.6',
         'pytz>=2020.4',
         'tqdm>=4.53.0',
-        'scikit-learn>=0.20.0',
-        'scipy>=1.5.4'
     ],
     license='MIT',
     packages=setuptools.find_packages(exclude=['dataset_preprocessing', 'examples', 'examples.models', 'examples.models.bert', 'examples.data_augmentation']),
