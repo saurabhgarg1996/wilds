@@ -6,7 +6,7 @@ import torch
 import torch.nn.functional as F
 from torchvision.ops.boxes import box_iou
 from torchvision.models.detection._utils import Matcher
-from torchvision.ops import nms, box_convert
+from torchvision.ops import nms
 from wilds.common.metrics.metric import Metric, ElementwiseMetric, MultiTaskMetric
 from wilds.common.metrics.loss import ElementwiseLoss
 from wilds.common.utils import avg_over_groups, minimum, maximum, get_counts
