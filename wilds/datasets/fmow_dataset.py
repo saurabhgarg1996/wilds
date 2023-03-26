@@ -13,7 +13,7 @@ import pytz
 from PIL import Image
 from tqdm import tqdm
 from wilds.common.utils import subsample_idxs
-from wilds.common.metrics.all_metrics import Accuracy
+#from wilds.common.metrics.all_metrics import Accuracy
 from wilds.common.grouper import CombinatorialGrouper
 from wilds.datasets.wilds_dataset import WILDSDataset
 
