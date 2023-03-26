@@ -21,6 +21,15 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='MIT',
+    install_requires = [
+        'numpy>=1.19.1',
+        'ogb>=1.2.6',
+        'outdated>=0.2.0',
+        'pillow>=7.2.0',
+        'ogb>=1.2.6',
+        'pytz>=2020.4',
+        'tqdm>=4.53.0',
+    ],
     packages=setuptools.find_packages(exclude=['dataset_preprocessing', 'examples', 'examples.models', 'examples.models.bert', 'examples.data_augmentation']),
     classifiers=[
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
